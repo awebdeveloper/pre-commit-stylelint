@@ -1,0 +1,10 @@
+-   id: stylelint
+    name: stylelint
+    entry: stylelint
+    language: node
+    files: \.(css|scss|sass)$
+    args: []
+
+    # Use additional_dependencies to install the actual node package
+    additional_dependencies: ['stylelint@7.9.0']
+    minimum_pre_commit_version: 0.7.0
