@@ -14,7 +14,7 @@ Add this to your `.pre-commit-config.yaml`:
 
 ```
    -   repo: https://github.com/awebdeveloper/pre-commit-stylelint
-       sha: '0.0.1'
+       sha: '' # Use the sha or tag you want to point at like 0.0.1
        hooks:
        -   id: stylelint
            additional_dependencies: ['stylelint@7.10.1', 'stylelint-config-standard@16.0.0']
