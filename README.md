@@ -13,6 +13,8 @@ For stylelint: see http://stylelint.io/
 Add this to your `.pre-commit-config.yaml`:
 
     -   repo: git://github.com/awebdeveloper/pre-commit-stylelint
-        sha: ''  # Use the sha or tag you want to point at
+        sha: ''  # Use the sha or tag you want to point at like 0.0.1
         hooks:
         -   id: stylelint
+            additional_dependencies: ['stylelint@7.10.1', 'stylelint-config-standard@16.0.0']
+
