@@ -12,7 +12,7 @@ For stylelint: see http://stylelint.io/
 
 Add this to your `.pre-commit-config.yaml`:
 
-```
+```yaml
    -   repo: https://github.com/awebdeveloper/pre-commit-stylelint
        sha: '' # Use the sha or tag you want to point at like 0.0.1
        hooks:
