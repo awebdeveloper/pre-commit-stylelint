@@ -1,7 +1,7 @@
-Styleint for pre-commit
-========================
+Pre-commit hook for Styleint  
+=============================
 
-This is the Stylelint config/plugin for [pre-commit](https://github.com/pre-commit/pre-commit). This prevents git commits unless the checks pass. 
+This is the Stylelint hook for [pre-commit](https://github.com/pre-commit/pre-commit). This prevents git commits unless the checks pass. 
 
 
 ### Using styleint with pre-commit
