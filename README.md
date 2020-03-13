@@ -13,11 +13,11 @@ This is the Stylelint hook for [pre-commit](https://github.com/pre-commit/pre-co
 Finally add this to your `.pre-commit-config.yaml`:
 
 ```yaml
-   -   repo: https://github.com/awebdeveloper/pre-commit-stylelint
-       sha: '' # Use the sha or tag you want to point at like 0.0.1
-       hooks:
-       -   id: stylelint
-           additional_dependencies: ['stylelint@7.10.1', 'stylelint-config-standard@16.0.0'] 
+    -   repo: https://github.com/awebdeveloper/pre-commit-stylelint
+        sha: '' # Use the sha or tag you want to point at like 0.0.1
+        hooks:
+        -   id: stylelint
+            additional_dependencies: ['stylelint@13.2.1', 'stylelint-config-standard@20.0.0']
  ```
  
  Now everytime you commit a scss/css file. It will run stylelint on this and prevent commit if the checks fail.
